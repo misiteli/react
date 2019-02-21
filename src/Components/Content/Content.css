@@ -1,0 +1,154 @@
+.content{
+    height: 430px;
+    margin-top: 50px;
+}
+.content-l{
+    width: 760px;
+    height: 360px;
+    padding: 0 20px;
+    background: #fff;
+}
+.content-tlt{
+    height: 60px;
+    width: 720px;
+    border-bottom: 1px solid #ccc;
+}
+.content-con{
+    width: 720px;
+    height: 300px;
+}
+.content-name{
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    padding-bottom: 0px;
+    line-height: 60px;line-height: 60px;
+    margin-right: 20px;
+}
+.content-txt{
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    padding-bottom: 0px;
+    line-height: 60px;
+}
+.content-{
+    width: 240px;
+    height: 300px;
+    border-left: 1px solid #ccc;
+    padding: 0 20px;
+    float: left;
+}
+.card-name{
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+.card-btn{
+    margin-left: 19px;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF2E3C;
+    cursor: pointer;
+}
+.content-r{
+    width: 200px;
+    height: 360px;
+    margin-left: 20px;
+    background: #fff;
+}
+.content-list{
+    height: 90px;
+    width: 100px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.content-list1{
+    height: 90px;
+    width: 100px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.aa{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon01.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0 5px;
+}
+.cc{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon03.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0px 5px;
+}
+.dd{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon04.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0px 5px;
+}
+.ee{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon05.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0px 5px;
+}
+.ff{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon06.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0px 5px;
+}
+.gg{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon07.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0px 5px;
+}
+.hh{
+    display: inline-block;
+    background: url(https://creditcard.ecitic.com/2017_images/bk_icon08.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: 0px 5px;
+}
+.content-list:hover .xuanxiang{
+    color: #ff2e3c;
+}
+.content-list:hover .aa{
+    background-position: -40px 5px;
+}
+.content-list:hover .cc{
+    background-position: -40px 5px;
+}
+.content-list:hover .dd{
+    background-position: -40px 5px;
+}
+.content-list:hover .ee{
+    background-position: -40px 5px;
+}
+.content-list:hover .ff{
+    background-position: -40px 5px;
+}
+.content-list:hover .gg{
+    background-position: -40px 5px;
+}
+.content-list:hover .hh{
+    background-position: -40px 5px;
+}

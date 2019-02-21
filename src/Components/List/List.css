@@ -1,0 +1,86 @@
+
+.cardsList{
+    margin-top: 15px;
+    height: 2400px;
+    /* min-height: 0; */
+}
+.card{
+    width: 478px;
+    height: 315px;
+    background: #fff;
+    margin: 15px 5px;
+    padding: 22px 45px 28px 45px;
+}
+.card:hover{
+    box-shadow: 5px 5px 30px #ccc;
+}
+.card-tit{
+    text-align: left;
+    font-size: 24px;
+    color: #666;
+    height: 30px;
+}
+.card-poster{
+    color:#f53b46;
+    font-size: 14px;
+    text-align: left;
+    height: 24px;
+}
+.card-border{
+    height: 1px;
+    border-bottom: 1px dashed #B4B4B4;
+    margin: 15px 0 20px 0;
+}
+.card-box{
+    height: 124px;
+    margin-bottom: 20px;
+}
+.card-pic{
+    position: relative;
+    height: 123px;
+    overflow: hidden;
+}
+.card-img{
+    position: absolute;
+}
+.card-pic:hover .card-img{
+    top: 0;
+}
+.card-txt{
+    width: 170px;
+}
+.card-introduce{
+    width: 170px;
+    margin-bottom: 0;
+    text-align: left;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 13px;
+    color: #919191;
+    background: url(https://cdn.citiccard.hunshitong.net/shenqing/images_2015/card_text_icon.jpg) no-repeat left 5px;
+    padding-left: 15px;
+}
+.card-merit{
+    display: block;
+    height: 20px;
+    padding: 0 5px;
+    line-height: 20px;
+    color: #FF2E3C;
+    font-size: 12px;
+    border: 1px solid #FF2E3C;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.card-btn{
+    display: block;
+    float: right;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF2E3C;
+}

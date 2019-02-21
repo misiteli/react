@@ -1,0 +1,27 @@
+.gate{
+    height: 52px;
+    background: #666;
+}
+.gate.list{
+    height: 52px;
+}
+.list-gate{
+    height: 52px;
+    float: left;
+    text-align: center;
+    width: 125px;
+    padding-top: 18px;
+    cursor: pointer;
+}
+.gate-data{
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    height: 16px;
+    width: 125px;
+    color: #ccc;
+    border-right: 1px solid #ccc;
+}
+.active{
+    color: #fff;
+}
