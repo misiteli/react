@@ -8,13 +8,13 @@ import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 let store = createStore((state = {
-    gateType: 'top'
+    users: []
 }, action) => {
     switch (action.type) {
         case 'changeGate':
         return {
             ...state,
-            gateType: action.gateType
+            users: action.users
         }
         default:
         return state

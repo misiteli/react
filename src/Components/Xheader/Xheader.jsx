@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Xheader.css'
+import { HashRouter as Router,Link,Route } from "react-router-dom";
 let Xheader = class Xheader extends Component {
     constructor(props) {
         super(props)
@@ -14,9 +15,9 @@ let Xheader = class Xheader extends Component {
                             <a><img src="https://creditcard.ecitic.com/shenqing/images_2015/logo_new.png" alt="" /></a>
                         </div>
                         <div className="right-con fr">
-                            <a className="denglu">登录</a>
+                            <Link to="/denglu" className="denglu">登录</Link>
                             <span>丨</span>
-                            <a className="zhuce">免费注册</a>
+                            <Link to="/zhuce" className="zhuce">免费注册</Link>
                             <a className="index">银行首页</a>
                             <span>丨</span>
                             <a className="zhaopin">人才招聘</a>
@@ -25,10 +26,10 @@ let Xheader = class Xheader extends Component {
                     <div className="nav">
                         <ul className="nav-con">
                             <li className="list">
-                                <a className="route">首页</a>
+                                <Link to="/" className="route">首页</Link>
                             </li>
                             <li className="list">
-                                <a className="route">申请信用卡</a>
+                                <Link to="/card" className="route">申请信用卡</Link>
                             </li>
                             <li className="list">
                                 <a className="route">我的账户</a>
